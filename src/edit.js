@@ -29,13 +29,14 @@ import './editor.scss';
  *
  * @return {Element} Element to render.
  */
-export default function Edit() {
+export default function Edit({ attributes, setAttributes }) {
+	const blockProps = useBlockProps();
 	return (
-		<p { ...useBlockProps() }>
-			{ __(
+		<p {...blockProps}>
+			{__(
 				'Interactive Pizza Dough Calculator – hello from the editor!',
 				'interactive-pizza-dough-calculator'
-			) }
+			)}
 		</p>
 	);
 }
