@@ -12,9 +12,12 @@
 		"lint:js": "wp-scripts lint-js",
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
-		"start": "wp-scripts start"
+		"start": "wp-scripts start --experimental-modules"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^27.7.0"
+	},
+	"dependencies": {
+		"@wordpress/interactivity": "^5.5.0"
 	}
 }

@@ -5,8 +5,88 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-create-block-interactive-pizza-dough-calculator {
-	background-color: #21759b;
+ .wp-block-create-block-interactive-pizza-dough-calculator {
+	font-size: 1.2em;
+	width: 100%;
+	display: flex;
+}
+
+.wp-block-create-block-interactive-pizza-dough-calculator .panel {
+	flex: 1;
+	background: #1b43b0;
+	padding: 2em;
+	margin-bottom: 2em;
+	box-shadow: 3px 3px 2px #cacaca;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
 	color: #fff;
-	padding: 2px;
+}
+.wp-block-create-block-interactive-pizza-dough-calculator .panel + .panel {
+	flex: 2;
+	background: #fff;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-top-left-radius: 0em;
+	border-bottom-left-radius: 0em;
+	p {
+		color: #6c6c6c;
+	}
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.form-group {
+	input {
+		flex: 2;
+		font-size: 1.2em;
+		padding: .5em;
+		border: none;
+		background: #1b43b0;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+		&[type=number] {
+			-moz-appearance: textfield; /* Firefox */
+			-webkit-appearance: textfield; /* Chrome, Safari, Opera */
+			appearance: textfield; /* Standard syntax */
+		}
+
+		&[type=number]::-webkit-inner-spin-button, 
+		&[type=number]::-webkit-outer-spin-button { /* Chrome, Safari, Opera */
+			-webkit-appearance: none;
+			margin: 0;
+		}
+		&:focus {
+			outline: none; /* Removes the default outline */
+			border-bottom: 1px solid #007bff;
+		}	
+	}
+}
+
+.normal-group {
+    margin-bottom: 0.7em;
+    display: flex;
+    align-items: center;
+}
+
+.normal-group div {
+	flex: 2;
+}
+
+.ingredients {
+	border-radius: 0.5em;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	padding: .5em;
+	color: #fff;
+	background-color: #1b43b0;
+	font-size: 1.2em;
 }
