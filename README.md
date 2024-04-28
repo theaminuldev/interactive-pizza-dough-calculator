@@ -1,55 +1,40 @@
-=== Interactive Pizza Dough Calculator ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.1
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+# Interactive Pizza Dough Calculator
 
-Example block scaffolded with Create Block tool.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-== Description ==
+## Description
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+The Interactive Pizza Dough Calculator is a WordPress plugin that allows users to calculate the ingredients needed for making pizza dough based on their desired pizza size and thickness.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+## Features
 
-== Installation ==
+- Calculate pizza dough ingredients based on size and thickness
+- Customizable ingredient ratios
+- Interactive user interface
+- Easy integration with WordPress
 
-This section describes how to install the plugin and get it working.
+## Installation
 
-e.g.
+1. Download the plugin zip file from the [releases](https://github.com/theaminuldev/interactive-pizza-dough-calculator/releases) page.
+2. Extract the zip file to the `wp-content/plugins` directory of your WordPress installation.
+3. Activate the plugin through the WordPress admin panel.
 
-1. Upload the plugin files to the `/wp-content/plugins/interactive-pizza-dough-calculator` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+## Usage
 
+1. Navigate to the "Pizza Dough Calculator" section in the WordPress admin panel.
+2. Enter the desired pizza size and thickness.
+3. Click the "Calculate" button to get the ingredient quantities.
+4. Adjust the ingredient ratios if needed.
+5. Copy the generated ingredient list and use it for making pizza dough.
 
-== Frequently Asked Questions ==
+## Contributing
 
-= A question that someone might have =
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-An answer to that question.
+## License
 
-= What about foo bar? =
+This project is licensed under the [MIT License](LICENSE).
 
-Answer to foo bar dilemma.
+## Contact
 
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+For any questions or inquiries, please contact [hello@theaminul.com](mailto:hello@theaminul.com).
